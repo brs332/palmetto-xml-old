@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- $Header: /afs/awd/projects/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto_layout.xml,v 1.4 2014/09/09 18:12:50 mashak Exp $ -->
+<!-- $Header: /afs/awd.austin.ibm.com/proj/p9/eclipz/KnowledgeBase/.cvsroot/eclipz/systems/pegasus/xml/working/palmetto/palmetto_layout.xml,v 1.5 2014/10/28 22:12:29 mashak Exp $ -->
 <layout xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw">
 <parts xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
-	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PALMETTO_APSS.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PGOOD_LAYERBRIDGE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="MOD_SEEPROM_512.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="VPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PCIE_X8_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PCA9538.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="PCIE_X16_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
-	<xi:include href="OPNPWR_CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 	<xi:include href="PEX8718_PALMETTO.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="VRD_NOI2C.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DDR3_DRAM_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="DIMM_SPD.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_CENTAUR.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="PCIE_X16_ABSTRACT.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
+	<xi:include href="OPNPWR_VENICE.xml" xpointer="xmlns(mrw=http://w3.ibm.com/stg/power-firmware/schema/mrw) xpointer(//mrw:part)" />
 </parts>
 <cards xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:mrw="http://w3.ibm.com/stg/power-firmware/schema/mrw" xmlns="http://w3.ibm.com/stg/power-firmware/schema/mrw"    >
 	<xi:include href="turismo_scm.xml"/>
